@@ -1,0 +1,62 @@
+# Build directories
+Debug/
+Release/
+Obj/
+Exe/
+List/
+# IAR generated files
+*.ewd
+*.ewt
+*.eww
+*.cspy.bat
+*.cspy.ps1
+*.dbgt
+*.wsdt
+*.dep
+*.log
+*.lst
+# Linker and compiler output
+*.out
+*.hex
+*.bin
+*.map
+*.o
+*.obj
+# Project-specific temporary files
+*~
+*.swp
+*.tmp
+*.bak
+*.orig
+# OS generated files
+.DS_Store
+Thumbs.db
+# Visual Studio / editor files
+.vscode/
+.idea/
+# Third-party / vendor SDK source
+components/
+external/
+modules/
+drivers_ext/
+drivers_nrf/
+libraries/
+serialization/
+softdevice/
+external_tools/
+boards/
+
+# Python/cache
+__pycache__/
+*.pyc
+/config
+/integration
+/secure_bootloader/pca10040e_s112_ble/iar/nrf52810_xxaa_s112/BrowseInfo/
+/secure_bootloader/pca10040e_s112_ble/iar/settings/
+/secure_bootloader/pca10040e_s112_ble/arm5_no_packs/
+/secure_bootloader/pca10040e_s112_ble/armgcc/
+/settings/
+/dfu_public_key_old.c
+/nRF_MDK_8_40_3_IAR_BSDLicense.msi
+/secure_bootloader/pca10040e_s112_ble/iar/
+/secure_bootloader/pca10040e_s112_ble/ses/
